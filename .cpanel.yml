@@ -5,4 +5,4 @@ deployment:
     - export DEPLOYPATH=/home/egtk/public_html/b2
     - export DEPLOYPATH=/home/egtk/public_html/b3
     - export DEPLOYPATH=/home/egtk/public_html/b4
-    - /bin/cp -R $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
