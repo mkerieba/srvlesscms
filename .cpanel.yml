@@ -9,3 +9,5 @@ deployment:
     - /bin/cp -R * $DEPLOYPATH
     - export DEPLOYPATH=/home/egtk/public_html/b4
     - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/egtk/public_html/b5
+    - /bin/cp -R * $DEPLOYPATH
