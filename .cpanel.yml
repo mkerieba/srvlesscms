@@ -2,7 +2,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/egtk/public_html/b1
+    - /bin/cp -R * $DEPLOYPATH
     - export DEPLOYPATH=/home/egtk/public_html/b2
+    - /bin/cp -R * $DEPLOYPATH
     - export DEPLOYPATH=/home/egtk/public_html/b3
+    - /bin/cp -R * $DEPLOYPATH
     - export DEPLOYPATH=/home/egtk/public_html/b4
     - /bin/cp -R * $DEPLOYPATH
