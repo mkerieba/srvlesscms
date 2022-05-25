@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/egtk/public_html/b1
+    - export DEPLOYPATH=/home/egtk/public_html/b2
+    - export DEPLOYPATH=/home/egtk/public_html/b3
+    - export DEPLOYPATH=/home/egtk/public_html/b4
+    - /bin/cp -R $DEPLOYPATH
